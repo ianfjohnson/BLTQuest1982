@@ -787,7 +787,7 @@ function play(x) {
     message = "";
 
     txtArray = x.split(" ");
-    cmd = txtArray[0];
+    let cmd = txtArray[0];
 
     //meant to turn this into a method
     if (cmd === "tomatoes") {
